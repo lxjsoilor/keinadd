@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="format-detection" content="telephone=no">
+<meta name="msapplication-tap-highlight" content="no">
+<meta name="viewport" content="viewport-fit=cover,user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+  <title></title>
+  <link rel="stylesheet" href="//at.alicdn.com/t/font_791293_l4gvhfhwgk.css">
+  <script src="http://webapi.amap.com/maps?v=1.4.7&key=58d287727866bff32eb3c840d1cf18ed&plugin=AMap.Geocoder,AMap.Driving"></script>
+
+  <script>
+    !function (n) {
+      var e = n.document,
+        t = e.documentElement,
+        i = 720,
+        d = i / 100,
+        o = "orientationchange" in n ? "orientationchange" : "resize",
+        a = function () {
+          console.log(9090)
+          var n = t.clientWidth || 320; n > 720 && (n = 720);
+          t.style.fontSize = n / d + "px"
+        };
+      e.addEventListener && (n.addEventListener(o, a, !1), e.addEventListener("DOMContentLoaded", a, !1))
+    }(window);
+
+  </script>
+</head>
+
+<body>
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
+</body>
+
+</html>
